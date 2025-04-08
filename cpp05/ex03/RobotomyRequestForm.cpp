@@ -51,7 +51,7 @@ void RobotomyRequestForm::executeAction() const {
 // Метод execute
 void RobotomyRequestForm::execute(const Bureaucrat& executor) const {
     // Проверяем, подписана ли форма и достаточно ли высокий уровень бюрократа для выполнения
-    Aform::execute(executor);
+    AForm::execute(executor);
 
     // Вызываем executeAction после проверки
     executeAction();

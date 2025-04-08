@@ -70,7 +70,7 @@ void AForm::execute(const Bureaucrat& executor) const {
         throw FormNotSignedException();
     if (executor.getGrade() > _execGrade)
         throw GradeTooLowException();
-    //executeAction();
+    executeAction();
 }
 
 

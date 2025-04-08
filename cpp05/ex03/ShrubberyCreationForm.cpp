@@ -53,6 +53,6 @@ std::ostream& operator<<(std::ostream& os, const ShrubberyCreationForm& form) {
 }
 
 void ShrubberyCreationForm::execute(const Bureaucrat& executor) const {
-    Aform::execute(executor);
+    AForm::execute(executor);
     executeAction();
 }
